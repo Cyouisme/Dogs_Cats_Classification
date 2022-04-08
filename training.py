@@ -2,8 +2,8 @@ from keras_preprocessing.image import ImageDataGenerator
 from sklearn.model_selection import train_test_split
 from tensorflow.python.keras.callbacks import BackupAndRestore, EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 from tensorflow.keras.optimizers import Adam
-from ML.OmOmega.DogCat_Recognition.model import build_model
-from ML.OmOmega.DogCat_Recognition.process_data import df, Image_Size
+from ML.DogCat_Recognition.model import build_model
+from ML.DogCat_Recognition.process_data import df, Image_Size
 
 earlystop = EarlyStopping(patience=10)
 learning_rate_reduction = ReduceLROnPlateau(monitor='val_accuracy', patience=2, verbose=1, factor=0.5, min_lr=0.00001)

@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from pathlib import Path
 from PIL import Image
-from ML.OmOmega.DogCat_Recognition.model import build_model
+from ML.DogCat_Recognition.model import build_model
 
 model = build_model()
 model.load_weights(r"D:\BaoChung\ML\OmOmega\DogCat_Recognition\dog_cat\weight\best_weight.hdf5")

@@ -34,8 +34,8 @@ from PIL import Image
 from keras_preprocessing.image import load_img
 
 # from ML.OmOmega.DogCat_Recognition.model import model
-from ML.OmOmega.DogCat_Recognition.process_data import Image_Size
-from ML.OmOmega.DogCat_Recognition.training import test_generator, batch_size, train_generator
+from ML.DogCat_Recognition.process_data import Image_Size
+from ML.DogCat_Recognition.training import test_generator, batch_size, train_generator
 
 test_filenames = os.listdir("./dogs-vs-cats/test1")
 test_df = pd.DataFrame({
