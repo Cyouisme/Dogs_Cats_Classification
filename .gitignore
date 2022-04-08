@@ -1,0 +1,7 @@
+////* GIT IGNORE *////
+
+cat_test/
+dog_cat/
+dog_test/
+__pycache__
+classify_dog_cat.h5
